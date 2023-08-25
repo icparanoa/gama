@@ -774,9 +774,9 @@ section {
   margin-top: -32px;
 }
 
-.about-boxes .card-icon i {
+.about-boxes .card-icon img {
   font-size: 32px;
-  color: #fff;
+  color: #000;
   width: 64px;
   height: 64px;
   padding-top: 5px;
@@ -810,7 +810,7 @@ section {
   color: #5e5e5e;
 }
 
-.about-boxes .card:hover .card-icon i {
+.about-boxes .card:hover .card-icon img {
   background: #fff;
   color: #849EA6;
 }
@@ -939,23 +939,24 @@ section {
 --------------------------------------------------------------*/
 .services .icon-box {
   margin-bottom: 20px;
-  padding: 30px;
-  border-radius: 6px;
+  padding: 5px 5px 5px 5px;
+  border-radius: 15px;
   background: #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+
 }
 
-.services .icon-box i {
-  float: left;
-  color: #5c8eb0;
-  font-size: 40px;
-  line-height: 0;
+.services .icon-box:hover {
+  box-shadow: 0px 2px 15px #D3A134;
+
 }
 
 .services .icon-box h4 {
-  margin-left: 70px;
+  margin-top: 10px;
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   font-size: 18px;
+
 }
 
 .services .icon-box h4 a {
@@ -963,18 +964,8 @@ section {
   transition: 0.3s;
 }
 
-.services .icon-box .icon-box:hover h4 a {
-  color: #849EA6;
-}
-
-.services .icon-box p {
-  margin-left: 70px;
-  line-height: 24px;
-  font-size: 14px;
-}
-
 .services .icon-box:hover h4 a {
-  color: #849EA6;
+  color: #D3A134;
 }
 
 /*--------------------------------------------------------------
