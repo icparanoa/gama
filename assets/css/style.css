@@ -956,7 +956,6 @@ section {
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 18px;
-
 }
 
 .services .icon-box h4 a {
@@ -966,6 +965,72 @@ section {
 
 .services .icon-box:hover h4 a {
   color: #D3A134;
+}
+
+.services .faq-list {
+  padding: 0;
+  list-style: none;
+}
+
+.services .faq-list li {
+  margin-bottom: 20px;
+  padding: 5px 5px 5px 5px;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #ececf1;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.services .faq-list .question {
+  display: block;
+  position: relative;
+  font-family: #ef6603;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  padding-left: 25px;
+  cursor: pointer;
+  color: #bd5102;
+  transition: 0.3s;
+}
+
+.services .faq-list i {
+  font-size: 16px;
+  position: absolute;
+  left: 0;
+  top: -2px;
+}
+
+.services .faq-list p {
+  margin-bottom: 0;
+  padding: 10px 0 0 25px;
+}
+
+.services .faq-list .icon-show {
+  display: none;
+}
+
+.services .faq-list .collapsed {
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #365870;
+}
+
+.services .faq-list .collapsed:hover {
+  color: #D3A134;
+}
+
+.services .faq-list .collapsed .icon-show {
+  display: inline-block;
+  transition: 0.6s;
+}
+
+.services .faq-list .collapsed .icon-close {
+  display: none;
+  transition: 0.6s;
 }
 
 /*--------------------------------------------------------------
